@@ -1,0 +1,312 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons";
+
+:root {
+  --darkColor: #2e8b57;
+  --bgColor: #fa9e46;
+  --blackColor: #000000b9;
+  --blackColor1:rgba(0, 0, 0, 0.993)9;
+  --whiteColor: #ffffff;
+  --lightColor: #fa9e46;
+  --dimWhite:#ebeaea;
+}
+
+
+/* general back button*/
+.back-btn {
+  color: var(--whiteColor);
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  margin-top: 75px;
+  padding: 6px 5px;
+  margin-left: 60px;
+  text-transform: uppercase;
+  background-color: var(--blackColor);
+ 
+  border: 2px solid var(--whiteColor);
+}
+
+.back-btn:hover {
+  color: var(--whiteColor);
+  background-color: var(--blackColor);
+  opacity: .4;
+}
+@media (max-width: 768px) {
+  .back-btn {
+    width: 30px;
+    height: 30px;
+    padding: 3px 2px;
+    margin-top: 75px;
+    margin-left: 10px;
+  }
+}
+
+/*--------------------------------------------------------------
+# ResultPage Section 
+--------------------------------------------------------------*/
+.adminLanding {
+  background: url("/images/record.jpg");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.adminLanding img {
+  height: 150px;
+  width: 200px;
+}
+
+.adminLanding h1 {
+  margin: 20px 0 10px 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: var(--whiteColor);
+  text-shadow: -1px 0 1px var(--darkColor);
+}
+
+.adminLanding h2 {
+  color: var(--whiteColor);
+  opacity: 0.9;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: -1px 0 2px var(--blackColor);
+}
+
+.adminLanding a {
+  color: var(--bgColor);
+  width: 200px;
+  font-size: 20px;
+  display: inline-block;
+  padding: 6px 5px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid var(--bgColor);
+}
+.adminLanding a:hover {
+  color: var(--bgColor);
+  font-size: 19px;
+  border: 1px solid var(--bgColor);
+}
+
+@media (max-width: 768px) {
+  .adminLanding a {
+    font-size: 18px;
+    display: inline-block;
+    padding: 8px 5px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid var(--bgColor);
+  }
+  .adminLanding h1 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .adminLanding h2 {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+/*--------------------------------------------------------------
+  # createForm
+  --------------------------------------------------------------*/
+  .createForm {
+    background: var(--darkColor);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+  .createForm .container {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    background: var(--bgColor);
+  }
+  
+  .createForm form {
+    padding: 15px;
+  }
+  
+  .createForm form img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 5px;
+    
+  }
+  
+  
+  
+  .createForm h1 {
+    color: var(--blackColor);
+    font-size: 35px;
+    padding: 15px;
+    line-height: 30px;
+  }
+  
+  .createForm h2 {
+    color: var(--whiteColor);
+    font-size: 20px;
+    background-color: var(--blackColor);
+    margin-left: 15px;
+   
+  }
+  
+  .createForm label {
+    color: var(--blackColor);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .createForm input {
+    border: 0;
+    font-size: 18px;
+    box-shadow: 1px 0px 12px 4px rgba(0,0,0,0.59);
+-webkit-box-shadow: 1px 0px 12px 4px rgba(141, 112, 112, 0.59);
+-moz-box-shadow: 1px 0px 12px 4px rgba(0,0,0,0.59);
+  }
+ 
+  
+  .createForm p {
+    color: var(--blackColor);
+    text-align: start;
+    font-size: 18px;
+  }
+  
+  .createForm .btn-submit {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px;
+    height: 60px;
+    margin-top: 10px;
+    color: var(--whiteColor);
+    transition: 0.3s ease-in-out;
+    background: var(--blackColor);
+    text-transform: uppercase;
+  }
+  .createForm .btn-submit:hover {
+    font-size: 24px;
+    opacity: .6;
+  }
+  @media (max-width: 768px) {
+    .createForm h1 {
+      font-size: 25px;
+    }
+    .createForm h2 {
+      color: var(--blackColor);
+      font-size: 22px;
+    }
+  }
+
+  .stdList{
+    background: linear-gradient(var(--blackColor), var(--darkColor));
+  }
+
+  /*--------------------------------------------------------------
+# All Students Card Form Section
+--------------------------------------------------------------*/
+.allStudentsCard {
+  background: linear-gradient(var(--blackColor), var(--darkColor));
+}
+
+.allStudentsCard .section-title h2 {
+  font-size: 45px;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--darkColor);
+  text-transform: uppercase;
+}
+.allStudentsCard .card {
+  width: 100%;
+  height: 65vh;
+  cursor: pointer;
+  box-shadow: 0px 0 30px rgba(38, 43, 48, 0.288);
+  border: 0;
+  background: linear-gradient(var(--blackColor), var(--darkColor));
+}
+
+.allStudentsCard .card img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.allStudentsCard .card .bText {
+  padding: 10px;
+}
+
+.allStudentsCard .card .bText p {
+  color: var(--blackColor);
+  font-size: 10px;
+}
+.allStudentsCard .card .bText p strong {
+  color: var(--blackColor);
+  font-size: 10px;
+}
+
+.allStudentsCard .card .bText small {
+  font-size: 8px;
+}
+.allStudentsCard .card .bText small:hover {
+  color: var(--blackColor);
+}
+
+@media (max-width: 768px) {
+  .allStudentsCard .card {
+    width: 100%;
+    height: 40vh;
+  }
+  .allStudentsCard .card img {
+    width: 100%;
+    height: 22vh;
+    object-fit: cover;
+  }
+  .allStudentsCard .section-title h2 {
+    font-size: 18px;
+  }
+}
+
+/*
+# RemoveBtn
+*/ 
+.removeBtn .staffs .links {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.3s ease-in-out;
+}
+
+.removeBtn {
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 32px;
+  height: 32px;
+}
+
+.removeBtn i {
+  color: var(--darkColor);
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+
+
+.removeBtn {
+  margin: 8px;
+}
