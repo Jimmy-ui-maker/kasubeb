@@ -9,6 +9,7 @@ export default async function ManageStudents() {
   //  limit: 4,
   //});
   const allStudent = await getAllStudents();
+
   return (
     <section className="allStudentsCard min-vh-100 w-100 d-flex justify-content-center align-items-center">
       <div className="container py-4">
@@ -17,6 +18,7 @@ export default async function ManageStudents() {
         </div>
         <hr />
 
+{/**
         <div className="row g-4 align-items-center text-lg-start ">
           {allStudent.map((all) => (
             <div key={all._id} className=" col-lg-3 ">
@@ -55,6 +57,7 @@ export default async function ManageStudents() {
             </div>
           ))}
         </div>
+ */}
       </div>
     </section>
   );
