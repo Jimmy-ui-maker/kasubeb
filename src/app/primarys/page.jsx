@@ -1,8 +1,5 @@
 import Link from "next/link";
 
-
-
-
 export default function AllBusinessList() {
   const bList = [
     {
@@ -30,12 +27,10 @@ export default function AllBusinessList() {
       name: "Primary 6",
       routes: "/primary6",
     },
-
-
   ];
   return (
     <>
-    <div className="container">
+      <div className="container">
         <div className="fixed-top mx-2 ">
           <Link className="btn back-btn " href="/">
             <i className="bi bi-arrow-left mx-1"> </i>
@@ -52,7 +47,7 @@ export default function AllBusinessList() {
           </div>
 
           <hr />
-
+          {/**
           <div className="row g-4  align-items-center text-center">
             {bList.map((lbd) => (
               <div
@@ -72,6 +67,7 @@ export default function AllBusinessList() {
               </div>
             ))}
           </div>
+           */}
         </div>
       </section>
     </>
