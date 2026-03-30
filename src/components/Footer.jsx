@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="credits">
               Designed by
               <Link href="" className=" nav-link text-decoration-none mx-1">
-                Bala Jimmy Yakubu
+                Abdulhadi
               </Link>
             </div>
             <div className="p-2"></div>
