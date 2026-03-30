@@ -7,7 +7,7 @@ export default async function AllStudents() {
   //  limit: 4,
   //});
 
-   const allStudent = await getAllStudents();
+  // const allStudent = await getAllStudents();
 
   return (
     <section className="allStudentsCard min-vh-100">
@@ -17,7 +17,7 @@ export default async function AllStudents() {
         </div>
         <hr />
 
-        
+        {/** 
         <div className="row g-4 align-items-center text-lg-start ">
           {allStudent.map((all) => (
             <div key={all._id} className="col-6 col-lg-3 ">
@@ -49,7 +49,7 @@ export default async function AllStudents() {
             </div>
           ))}
         </div>
-
+*/}
       </div>
     </section>
   );
