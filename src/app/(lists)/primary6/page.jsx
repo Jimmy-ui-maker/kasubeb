@@ -12,7 +12,7 @@ export default async function page() {
           <h2 className="text-center ">All primary 6 Students</h2>
         </div>
         <hr />
-
+{/**
         <div className="row g-4 align-items-center text-lg-start ">
           {getOne.map((all) => (
             <div key={all._id} className="col-6 col-lg-3 ">
@@ -44,6 +44,7 @@ export default async function page() {
             </div>
           ))}
         </div>
+ */}
       </div>
     </section>
   );

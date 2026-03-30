@@ -8,7 +8,8 @@ export default async function ManageStudents() {
   //  sort: { _id: -1 },
   //  limit: 4,
   //});
-  const allStudent = await getAllStudents();
+
+  // const allStudent = await getAllStudents();
 
   return (
     <section className="allStudentsCard min-vh-100 w-100 d-flex justify-content-center align-items-center">
