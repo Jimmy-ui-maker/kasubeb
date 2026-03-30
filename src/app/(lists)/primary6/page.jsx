@@ -2,9 +2,9 @@ import KadsuBeb from "@/models/SchoolModel";
 import React from "react";
 
 export default async function page() {
-  const getOne = await KadsuBeb.find({ classes: "Primary 6" }, null, {
-    sort: { _id: -1 },
-  });
+  //const getOne = await KadsuBeb.find({ classes: "Primary 6" }, null, {
+    //sort: { _id: -1 },
+  //});
   return (
     <section className="allStudentsCard min-vh-100">
       <div className="container py-4">
