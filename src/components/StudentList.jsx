@@ -1,4 +1,3 @@
-
 import getAllStudents from "@/controller/getAllStudents";
 import React from "react";
 
@@ -7,7 +6,8 @@ export default async function AllStudents() {
   //  sort: { _id: -1 },
   //  limit: 4,
   //});
-const allStudent = await getAllStudents();
+  const allStudent = await getAllStudents();
+
   return (
     <section className="allStudentsCard min-vh-100">
       <div className="container py-4">
@@ -16,6 +16,7 @@ const allStudent = await getAllStudents();
         </div>
         <hr />
 
+        {/** 
         <div className="row g-4 align-items-center text-lg-start ">
           {allStudent.map((all) => (
             <div key={all._id} className="col-6 col-lg-3 ">
@@ -47,6 +48,7 @@ const allStudent = await getAllStudents();
             </div>
           ))}
         </div>
+*/}
       </div>
     </section>
   );
